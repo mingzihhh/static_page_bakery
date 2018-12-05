@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    border: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+html,
+body {
+    height: 100%;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.button{
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    border:2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: bold;
+}

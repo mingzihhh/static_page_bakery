@@ -1,0 +1,334 @@
+header {
+    height: 100%;
+    background: transparent url(../images/banner-1.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+header .nav {
+    background-color: rgba(0,0,0,0.7);
+    height: 80px;
+    line-height: 80px;
+}
+header .logo {
+    float: left;
+    font-size: 48px;
+    margin-left: 50px;
+    color: #fff;
+}
+header .logo span {
+    color: #ff9900;
+    font-size: 48px;
+}
+header .navbar {
+    float: right;
+    margin-right: 150px;
+}
+header .navbar li {
+    float: left;
+    margin-left:50px;
+}
+header .navbar a {
+    color:#fff;
+}
+header .navbar a:hover {
+    color: #ff9900;
+}
+header .intro {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+header .intro h1 {
+    font-size: 72px;
+    margin-top: 15px;
+}
+header .intro p {
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+header .intro a {
+    margin-top: 50px;
+    font-weight: bold;
+}
+header .button:hover {
+    border: 2px solid #ff9900;
+    background-color: #ff9900;
+}
+section {
+    padding: 150px 300px; 
+    text-align: center;
+}
+section>h2 {
+    font-size: 40px;
+}
+section>p {
+    font-size: 16px;
+    color: #777777;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+section>ul {
+    margin-top:80px;
+}
+#service ul {
+    margin-right: -50px;
+}
+#service ul li {
+    float: left;
+    width: calc(33.33% - 50px);
+    margin-right: 50px;
+}
+#service .iconfont {
+    font-size: 100px;
+}
+#service ul h3 {
+    font-size: 30px;
+    color: #ff9900;
+    margin-top: 10px;
+}
+#service ul p {
+    margin-top: 30px;
+}
+#menu {
+    background-color: #f7f7f7;
+}
+#menu ul {
+    margin-right: -30px;
+}
+#menu ul li {
+    float: left;
+    width: calc(33.33% - 30px);
+    background-color: #fff;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+#menu ul a {
+    display: block;
+    position: relative;
+    font-size: 0;
+}
+#menu ul .menu-add {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255,153,0,0.7);
+    display: none;  
+} 
+#menu ul .menu-add span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    color: #fff;
+    font-size: 100px;
+}
+#menu ul li:hover .menu-add {
+    display: block;
+}
+#menu ul img {
+    width: 100%;
+}
+#menu ul figcaption {
+    font-size: 20px;
+    margin-top: 20px;
+}
+#menu ul p {
+    font-size: 18px;
+    color: #909090;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+#about ul li {
+    margin-top: 100px;
+    position: relative;
+}
+#about ul dt {
+    font-size: 20px;
+    color: #ff9000;
+}
+#about ul img {
+    width: 160px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+}
+#about ul li:nth-child(odd) {
+    padding-right: calc(50% - 80px);
+    text-align: right;
+}
+#about ul li:nth-child(odd)>img {
+    float: right;
+}
+#about ul li:nth-child(odd)>dl {
+    margin-right:180px;
+}
+#about ul li:nth-child(even) {
+    padding-left: calc(50% - 80px);
+    text-align: left;
+}
+#about ul li:nth-child(even)>img {
+    float: left;
+}
+#about ul li:nth-child(even)>dl {
+    margin-left: 180px;
+}
+#about ul li::before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 160px;
+    height: 100px;
+    border: 1px solid #ddd;
+}
+#about li>span {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background: #ff9000;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    padding: 50px 0;
+}
+#about ul li:last-child::before {
+    display: none;
+}
+#team {
+    background-color: #f7f7f7;
+}
+#team ul {
+    margin-right: -30px;
+}
+#team ul li {
+    float: left;
+    width: calc(33.33% - 30px);
+    margin-right: 30px;
+}
+#team li img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+#team li h5 {
+    font-size: 20px;
+    margin-top:20px;
+}
+#team li p {
+    color: #777777;
+}
+.icon-twitter,.icon-ins,.icon-facebook {
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    background-color: #000;
+    margin-top: 15px;
+    margin-left:5px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.icon-twitter:hover,
+.icon-ins:hover,
+.icon-facebook:hover {
+    background-color: #ff9900;
+}
+#team .team-comment{
+    color: #777777;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+section.logo {
+    padding: 50px 200px;
+}
+
+section.logo img {
+    float: left;
+    width: 180px;
+    height: 100px;
+    margin-left: 150px;
+}
+#contact {
+    background: transparent url(../images/banner-2.jpg);
+    background-size: cover;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+#contact h2{
+    color: #fff;
+}
+#contact p {
+    color: #ccc;
+}
+#contact form {
+    margin-top: 80px;
+}
+#contact input[type=text] {
+    display: block;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 50%;
+    height: 60px;
+    border-radius: 5px;   
+    padding-left: 20px;
+}
+#contact input[type=text]::-webkit-input-placeholder,
+#contact textarea::-webkit-input-placeholder {
+    color: #aaa;
+    font-size: 14px;
+    font-weight: bold;
+}
+#contact textarea {
+    float: right;
+    width: calc(50% - 30px);
+    height: 240px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#contact .button {
+    border: 2px solid #ff9900;
+    background-color: #ff9900;
+    height: 60px;
+}
+#contact .button:hover{
+    border: 2px solid #ee9000;
+    background-color: #ee9000;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+footer p {
+    display: inline-block;
+    margin-right: 180px;
+}
+footer .icon-facebook,footer .icon-twitter,footer .icon-ins {
+    font-size: 25px;
+}
+footer a {
+    color: #ff9900;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer .footer_link1 {
+    margin-left: 180px;
+}
+footer .footer_link2 {
+    margin-left: 10px;
+}
+
